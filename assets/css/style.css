@@ -1,0 +1,41 @@
+body {
+   text-align: center;
+   box-sizing: border-box;
+   line-height: 32px;
+   margin: 0 auto;
+   padding: 0;
+}
+
+header {
+    max-width: 960px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    line-height: 32px;
+    border-bottom: rgb(59, 59, 59) 2px;
+}
+.logo {
+    float: left;
+    background: teal;
+    color: white;
+    width: 20%;
+    padding: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 44px 16px;
+    text-decoration: none;
+}

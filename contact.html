@@ -5,39 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     
 </head>
 <body>
     <header>
-        <h1>Rafael Blanco</h1>
-
-        <nav>
-            <ul>
-                <li><a href="index.html">About </a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1 class="logo">Rafael Blanco</h1>
+    <!--Navigation-->
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!--Contact Section-->
-    <section class="background-image" style="background-image:url('assets/images/background_image.png')">
-        <section>
-            <h2>Contact</h2>
-            <hr>
-            <form>
+    <section class="background-image">
+        <section class=" container main-content">
+            <div class="header-2">
+                <h2>Contact</h2>
+            </div>
+
+            <form id="contact-form">
                 Name <br>
                 <input type= "text" name= "name" placeholder= "John Smith"> <br>
                 Email <br>
                 <input type= "text" name= "email" placeholder="example@gmail.com"> <br>
                 Message <br>
                 <textarea name="message" rows="10" cols="30"></textarea> <br>
-                <input type="submit" name="submit">
+                <input id="button" type="submit" name="submit">
             </form>
         </section>
     </section>
 
+    <!--Footer-->
     <footer>
         <h4> &copy; Copyright 2018 Rafael Blanco</h4>
     </footer>
